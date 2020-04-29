@@ -2146,6 +2146,27 @@ input, select, textarea {
 				width: 100%;
 			}
 
+/* My own image styling */
+	.own-image {
+		display: flex;
+		box-sizing: border-box;
+		justify-content: center;
+	}
+
+	.own-image img {
+		width: 384px;
+		height: 225px;
+		border-radius: 0.35em;
+		border: 1px solid #a8b2b3;
+		box-shadow: 0px 4px 10px 5px rgba(167,170,184,0.75);
+	}
+
+	a.own-image {
+		margin: 0 0 1.5em 0;
+		border-bottom: none;
+	}
+/* End my own image styling */
+
 /* List */
 
 	ol {
@@ -2196,8 +2217,9 @@ input, select, textarea {
 }
 
 .devicons > * {
-	font-size: 100px;
-	margin:10px;
+	font-size: 90px;
+	margin: 5px;
+	padding: 2.5rem;
 }
 
 
